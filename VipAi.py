@@ -21,7 +21,7 @@ SESSION_NAME = os.environ.get("SESSION_NAME", "")
 MONGO_URL = os.environ.get("MONGO_URL", "")
 
 
-client = Client(API_ID, API_HASH, SESSION_NAME)
+client = Client(api_id=API_ID, api_hash=API_HASH, session_name=SESSION_NAME)
 
 
 
